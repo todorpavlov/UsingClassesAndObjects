@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TriangleSurface", "04.Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.WorkDays", "05.WorkDays\05.WorkDays.csproj", "{056A494A-BF2B-47A5-AE6F-43BB1524AAC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SumIntegers", "06.SumIntegers\06.SumIntegers.csproj", "{769086AE-21B4-47D6-8986-EC1C26D8E0C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{056A494A-BF2B-47A5-AE6F-43BB1524AAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{056A494A-BF2B-47A5-AE6F-43BB1524AAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{056A494A-BF2B-47A5-AE6F-43BB1524AAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769086AE-21B4-47D6-8986-EC1C26D8E0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769086AE-21B4-47D6-8986-EC1C26D8E0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769086AE-21B4-47D6-8986-EC1C26D8E0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769086AE-21B4-47D6-8986-EC1C26D8E0C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
