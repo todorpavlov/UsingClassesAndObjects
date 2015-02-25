@@ -14,9 +14,27 @@ using System;
         {
             Console.WriteLine("Triangel Surface\n");
 
-            //SideAndAltitude();
-            //ThreeSides();
-            TwoSaidsAndAngle();
+            Console.WriteLine("Choose wisely: ");
+            Console.WriteLine("1. Calculate size of a triangle by a side and the altitude to it");
+            Console.WriteLine("2. Calculate size of a triangle by three sides");
+            Console.WriteLine("3. Calculate size of a triangle by two sides and the angle between them");
+            Console.Write("Choose between 1 and 3: ");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+
+            if (n == 1)
+            {
+                SideAndAltitude();
+            }
+            if (n == 2)
+            {
+                ThreeSides();
+            }
+            if (n == 3)
+            {
+                TwoSaidsAndAngle();
+            }
         }
 
         static void SideAndAltitude()
